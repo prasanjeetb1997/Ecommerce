@@ -1,0 +1,20 @@
+div ul .nav-item:hover {
+    background-color: blueviolet;
+}
+
+div ul .nav-item .nav-link {
+    font-family: 'cursive';
+    font-size: large;
+}
+
+
+/* for navbar links */
+@media only screen and (max-width: 992px) {
+    .navbar-nav {
+        margin-top: 20px;
+    }
+
+    div ul .nav-item {
+        padding-left: 10px;
+    }
+}
